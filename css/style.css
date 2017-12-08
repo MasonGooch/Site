@@ -1,0 +1,403 @@
+/** html, body, headers, heading, footer , and univeral selector.    **/
+
+*{
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+html, body{
+max-width: 100%;
+overflow-x: hidden;
+background-color:#e6e6e6; 
+}
+
+
+#mainheading {
+  font-size:4em;
+  position: relative;
+  bottom: 8em;
+  color: #ffa359;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 5em;
+  color: #722f37;
+  font-weight: 700;
+}
+
+
+
+#subheading {
+  font-size:1.7em;
+  position: relative;
+  bottom: 12em;
+  color: #ffa359;
+  text-shadow: 3px 3px black;
+}
+
+h2{
+  text-align: center;
+  color:#722f37;
+ margin-top: 2%;
+ font-weight: 700;
+ margin-top: 5%;
+}
+.hp{
+margin: 2%;
+text-align: right;
+position: relative;
+top: .3em;
+font-size: 2em;
+}
+
+h3{
+  margin-right: 5%;
+  text-align: right;
+    margin-top: 5em;
+  margin-bottom: 2em;
+    font-size: 3.063em;
+  color: #722f37;
+}
+
+.bk{
+font-size:1.5em;
+text-align:left;
+
+}
+
+
+h4{
+text-align: right;
+color:#722f37;
+font-size: 2em;
+}
+
+.word{
+font-size:.5em;
+position:relative;
+bottom:7em;
+
+}
+
+h5{
+  font-size: 30px;
+  color: #722f37;
+  text-align: right;
+  padding: 4%;
+  margin: 0 auto;
+  display: inline;
+  position: relative;
+  bottom: 150px;
+}
+
+h6{
+color: #722f37;
+font-size: 30px;
+}
+
+header{ 
+  width: 100%;
+    height: 30%;
+  background-position: center;
+background-color: #f9ce95;
+padding: .1%;
+margin-bottom: 5%;
+}
+
+footer{
+background-color: #222;
+margin-top: 20%;
+padding: .1%;
+}
+
+
+
+/**Tables, br, and p tags**/
+
+
+table, tr, th{
+  text-align:center;
+  margin-top: 10%;
+ border: .2em inset #722f37;
+    border-collapse: collapse
+}
+
+th {
+  color: #722f37;
+}
+
+p{
+color: #722f37;
+font-size:.9em;
+}
+
+br{
+color: #722f37;
+}
+
+td{
+color: #722f37;
+}
+
+button{
+margin: 1% 0% 0% 2%;
+}
+
+
+
+/** Navs and a tags, li,  and images**/
+
+.Nav li {
+  display: inline;
+  padding: 3%;
+  margin: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+  bottom: 80px;
+}
+
+.Nav {
+  text-decoration: none;
+  list-style-type: none;
+  position: relative;
+  bottom: 9%;
+  text-align: center;  
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ ul{
+padding: 5%;
+margin: 0 auto;
+}
+
+/*img{
+  float: left;
+  margin-right: .3em;
+  margin-top: 3%;
+ max-width:100%;
+}*/
+
+
+/** home Page **/
+
+.coolimage{
+  width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+}
+
+.special{
+text-shadow: 3px 3px black;
+}
+
+
+.cool{
+  border: inset 10px; 
+  margin-top: 3em;
+  display: inline-block;
+  width:100%;
+  min-width:30%
+}
+
+.heroimage {
+width:15%;
+  float: right;
+position:relative;
+top:1em;
+right:1em;
+}
+
+.rumbler{
+text-align: right;
+    margin-top: 2.5em;
+  margin-bottom: 4em;
+    font-size: 1.5em;
+border: inset 10px;
+padding: 10%;
+}
+
+.lancer{
+ text-align: right;
+font-size: 3.1em;
+border: inset 10px;
+padding-bottom: 2%; 
+padding:10%;
+position:relative;
+
+}
+
+.word{
+position:relative;
+bottom:2em;
+
+}
+
+.lancerimage{
+  width: 19%;
+  float:left;
+  position:relative;
+  right:12%;
+  top:.3em;
+  
+}
+
+.fried{
+width:40%;
+position:relative;
+bottom:-1em;
+}
+
+
+
+/**About Page **/
+
+
+.Bigsister{
+padding-bottom: 10%;
+float: center;
+
+}
+
+.SimpleRick{
+text-align: left;
+}
+
+.bigdaddy{
+ text-align: left;
+font-size: 2em;
+border: inset 10px;
+padding-bottom: 2%; 
+padding-top: 10%;
+padding: 5%;
+position: relative;
+right: 1%;
+margin-top: 17%;
+}
+
+.bigdaddies{
+  width: 40%;
+ float: right;
+ position: relative;
+left: 60px;
+bottom: 250px;
+}
+
+.tabs{
+border:center;
+
+
+
+}
+
+/**Donut Page **/
+
+#killer{
+position: relative;
+right: 50px;
+}
+
+.me{
+width:30%;
+position:relative;
+
+}
+
+
+/**Drinks Page**/
+
+.John{
+margin-bottom: 15%;
+float: center;
+text-align: center;
+width: .0001;
+}
+
+
+/**Gift Cards**/
+
+.flyfisherrick{
+  border: inset 10px;
+  padding: 10%;
+  padding-bottom:12%;
+  margin-top: 10%;
+  font-size: 1.25em; 
+}
+
+.bestRick{
+float: left;
+position: relative;
+right:4em;
+bottom:1em;
+margin-right:10%;
+}
+
+
+.Danny{
+position:relative;
+top:5em;
+
+}
+
+/**Contact**/
+
+
+TallMorty{
+text-align: center;
+float: right;
+}
+
+.Dan{
+position:relative;
+top:5em;
+
+
+}
+
+
+/**Media**/
+
+@media  screen and(max-width: 500px)and(min-width:320px) {
+
+
+body{
+width: 100%;
+padding: 20rem;
+overflow: auto;
+white-space: nowrap;
+border: solid 800px;
+}
+
+img{
+max-width: 100%;
+padding: 2rem;
+width: 1rem;
+float: left;
+position: relative;
+left: 500px;
+}
+
+.cool{
+width: 10rem;
+}  
+ }
+
+.matt {
+border: inset black 10px;
+margin-top: 5%;
+padding: 3%;
+text-align: left;
+margin-left: -3%;
+font-size: 2em;
+}
+
+.me{
+position: relative;
+bottom: 300px;
+left: 820px;
+}
